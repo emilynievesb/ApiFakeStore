@@ -11,16 +11,16 @@ async function dinamicCategories() {
     let a = document.createElement("a");
     switch (i) {
       case 0:
-        a.href = "electronics.html";
+        a.href = "html/electronics.html";
         break;
       case 1:
-        a.href = "jewelery.html";
+        a.href = "html/jewelery.html";
         break;
       case 2:
-        a.href = "men.html";
+        a.href = "html/men.html";
         break;
       case 3:
-        a.href = "women.html";
+        a.href = "html/women.html";
         break;
     }
     let textnode = document.createTextNode(categories[i]);
