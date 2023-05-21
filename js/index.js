@@ -1,7 +1,6 @@
 import { createCards } from "./cards.js";
 import { getAllProducts, getCategories } from "./fetch.js";
 
-const CATEGORIESLIST = document.getElementById("categories");
 const URL = "https://fakestoreapi.com/";
 
 async function dinamicCategories() {
@@ -29,8 +28,6 @@ async function dinamicCategories() {
     document.getElementById("categories").appendChild(node);
   }
 }
-
-const products = await getAllProducts(URL);
 
 async function dinamicProducts() {
   const products = await getAllProducts(URL);
