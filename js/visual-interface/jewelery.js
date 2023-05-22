@@ -29,7 +29,7 @@ async function dinamicCategories() {
   }
 }
 async function dinamicProducts() {
-  const products = await getCategoryProducts(URL, "electronics");
+  const products = await getCategoryProducts(URL, "jewelery");
   createCards(products);
 }
 dinamicCategories();
