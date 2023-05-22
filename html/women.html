@@ -6,11 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/normalize.css" />
     <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/modal.css" />
     <link href="https://fonts.cdnfonts.com/css/dana" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
     />
+    <script src="../js/modal/modal.js" type="module" defer></script>
     <script src="../js/visual-interface/women.js" type="module" defer></script>
     <title>Fake Store API</title>
   </head>
@@ -39,7 +41,7 @@
           </form>
         </div>
         <div class="cart">
-          <button>
+          <button type="button" class="open-modal" data-open="modal1">
             <span class="material-symbols-outlined"> shopping_cart </span>
           </button>
         </div>
@@ -47,6 +49,20 @@
       <div class="navbar">
         <ul id="categories"></ul>
       </div>
+      <!-- ?-----------------------MODAL -->
+      <div class="modal" id="modal1" data-animation="slideInOutLeft">
+        <div class="modal-dialog">
+          <header class="modal-header">
+            Cart Shopping
+            <button class="close-modal" aria-label="close modal" data-close>
+              ✕
+            </button>
+          </header>
+          <section class="modal-content" id="content-cart"></section>
+          <footer class="modal-footer" id="footer-cart"></footer>
+        </div>
+      </div>
+      <!-- ?------------------------MODAL -->
       <div class="content">
         <div class="title">
           <p>Women's clothing:</p>

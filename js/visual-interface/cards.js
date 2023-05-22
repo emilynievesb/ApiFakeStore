@@ -1,3 +1,5 @@
+import { eventButton } from "../cart/cart.js";
+
 export async function createCards(products) {
   for (let i = 0; i < products.length; i++) {
     let node = document.createElement("div");
@@ -12,6 +14,7 @@ export async function createCards(products) {
     price.appendChild(textPrice);
     let button = document.createElement("button");
     button.classList.add("cart-button");
+    button.dataset.index = products[i].id;
     let textButton = document.createTextNode("Agregar al carrito");
     button.appendChild(textButton);
     node.appendChild(img);
@@ -20,4 +23,5 @@ export async function createCards(products) {
     node.appendChild(button);
     document.getElementById("products").appendChild(node);
   }
+  eventButton();
 }

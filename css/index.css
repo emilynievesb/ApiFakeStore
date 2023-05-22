@@ -65,6 +65,7 @@ form > button {
 }
 .cart {
   width: 15%;
+  margin-top: 8px;
   height: 100%;
   display: flex;
   align-items: center;
@@ -147,6 +148,7 @@ hr {
   color: white;
   background-color: #802c6e;
   box-shadow: 0px 0px 10px 0px #f78ce0;
+  cursor: pointer;
 }
 
 footer {
@@ -168,7 +170,8 @@ input,
 .warn,
 .card,
 .card button,
-footer {
+footer,
+.modal {
   font-family: "dana", sans-serif;
 }
 a {

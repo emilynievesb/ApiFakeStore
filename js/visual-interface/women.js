@@ -1,7 +1,7 @@
 import { createCards } from "./cards.js";
 import { getCategoryProducts, getCategories } from "./fetch.js";
 
-const URL = "https://fakestoreapi.com/";
+const URL = "https://fakestoreapi.com/products";
 
 async function dinamicCategories() {
   const categories = await getCategories(URL);
