@@ -48,3 +48,52 @@ FakeStore es un proyecto de e-commerce desarrollado para permitir a los usuarios
 ## GitHub Pages
 
 Puedes acceder a la página en GitHub Pages utilizando el siguiente enlace: [https://emilynievesb.github.io/ApiFakeStore/](https://emilynievesb.github.io/ApiFakeStore/)
+
+# FakeStore - E-commerce with Category Filters and Shopping Cart
+
+FakeStore is an e-commerce project developed to allow users to filter products by categories and use a shopping cart to add and remove items.
+
+## Features
+
+- Filtering of products by categories.
+- Use of a shopping cart to add and remove items.
+- Search for products by their full name. **Note:** It's important to enter the full name of the product when searching, as the system won't perform partial matches.
+
+## Technologies Used
+
+- HTML5, CSS3, and JavaScript: Core languages for developing the user interface and client-side interactions.
+- Fake Store API: The project utilizes the [Fake Store API](https://fakestoreapi.com) as a data source to retrieve information about available products. The API provides fictional product data, categories, images, etc., which are used in the e-commerce application.
+
+## Installation
+
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone https://github.com/emilynievesb/ApiFakeStore.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd ApiFakeStore
+   ```
+3. Open the `index.html` file in your web browser.
+
+## Usage
+
+1. Browse through the different available categories in FakeStore to explore products.
+
+2. Use the category filters to refine your search.
+
+3. Click on the "Add to Cart" button to add products to the shopping cart.
+
+4. Access the shopping cart by clicking on the corresponding icon or through the modal window.
+
+5. In the shopping cart, you can view a summary of the selected products, including the name, description, price, and description of each item. You can remove items from the cart if desired.
+
+## Credits
+
+- Emily Nieves: Lead Developer.
+
+## GitHub Pages
+
+You can access the page on GitHub Pages using the following link: [https://emilynievesb.github.io/ApiFakeStore/](https://emilynievesb.github.io/ApiFakeStore/)
