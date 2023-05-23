@@ -199,7 +199,8 @@ footer,
 #content-electronics,
 #content-jewelery,
 #content-men,
-#content-women {
+#content-women,
+#content-search {
   display: none;
   scale: 0;
   opacity: 0;

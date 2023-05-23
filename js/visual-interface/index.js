@@ -74,8 +74,13 @@ async function dinamicCategories() {
   }
 }
 
+export let vNameProducts = [];
+
 async function dinamicProducts() {
   const products = await getAllProducts(URL);
+  products.forEach((product) => {
+    vNameProducts.push(product.title);
+  });
   createCards(products, "products");
 }
 async function dinamicProductsElectrics() {
