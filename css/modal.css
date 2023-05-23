@@ -105,6 +105,9 @@
 .modal-header .close-modal {
   font-size: 1.5rem;
 }
+.modal-footer {
+  position: relative;
+}
 
 .modal p + p {
   margin-top: 1rem;

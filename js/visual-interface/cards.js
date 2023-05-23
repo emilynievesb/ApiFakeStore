@@ -1,6 +1,6 @@
 import { eventButton } from "../cart/cart.js";
 
-export async function createCards(products) {
+export async function createCards(products, idElemento) {
   for (let i = 0; i < products.length; i++) {
     let node = document.createElement("div");
     node.classList.add("card", "gradient-border");
@@ -21,7 +21,7 @@ export async function createCards(products) {
     node.appendChild(title);
     node.appendChild(price);
     node.appendChild(button);
-    document.getElementById("products").appendChild(node);
+    document.getElementById(idElemento).appendChild(node);
   }
   eventButton();
 }
