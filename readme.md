@@ -1,7 +1,7 @@
-﻿
-# FakeStore - E-commerce con Filtros de Categorías y Carrito de Compras
+﻿# FakeStore - E-commerce con Filtros de Categorías y Carrito de Compras
 
 FakeStore es un proyecto de e-commerce desarrollado para permitir a los usuarios filtrar productos por categorías y utilizar un carrito de compras para agregar y eliminar ítems.
+
 ## Características
 
 - Filtrado de productos por categorías.
@@ -16,17 +16,18 @@ FakeStore es un proyecto de e-commerce desarrollado para permitir a los usuarios
 
 ## Instalación
 
-1. Clona este repositorio en tu máquina local: 
-
+1. Clona este repositorio en tu máquina local:
 
    ```bash
    git clone https://github.com/emilynievesb/ApiFakeStore.git
-   
-2. Accede al directorio del proyecto:
-	```bash 
-	cd ApiFakeStore
-3. Abre el archivo `index.html` en tu navegador web.
 
+   ```
+
+2. Accede al directorio del proyecto:
+   ```bash
+   cd ApiFakeStore
+   ```
+3. Abre el archivo `index.html` en tu navegador web.
 
 ## Uso
 
@@ -44,11 +45,6 @@ FakeStore es un proyecto de e-commerce desarrollado para permitir a los usuarios
 
 - Emily Nieves: Desarrolladora principal.
 
-## Licencia
-
-Este proyecto está bajo la [Licencia MIT](LICENSE).
-
 ## GitHub Pages
 
 Puedes acceder a la página en GitHub Pages utilizando el siguiente enlace: [https://emilynievesb.github.io/ApiFakeStore/](https://emilynievesb.github.io/ApiFakeStore/)
-
