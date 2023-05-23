@@ -16,7 +16,7 @@ export async function createCards(products, idElemento) {
       let button = document.createElement("button");
       button.classList.add("cart-button");
       button.dataset.index = products[i].id;
-      let textButton = document.createTextNode("Agregar al carrito");
+      let textButton = document.createTextNode("Add to shopping cart");
       button.appendChild(textButton);
       node.appendChild(img);
       node.appendChild(title);
@@ -38,7 +38,7 @@ export async function createCards(products, idElemento) {
     let button = document.createElement("button");
     button.classList.add("cart-button");
     button.dataset.index = products.id;
-    let textButton = document.createTextNode("Agregar al carrito");
+    let textButton = document.createTextNode("Add to shopping cart");
     button.appendChild(textButton);
     node.appendChild(img);
     node.appendChild(title);

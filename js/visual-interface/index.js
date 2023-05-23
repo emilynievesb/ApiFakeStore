@@ -9,6 +9,9 @@ function setEvent(id) {
   const JEWELERY = document.getElementById("content-jewelery");
   const MEN = document.getElementById("content-men");
   const WOMEN = document.getElementById("content-women");
+  const SEARCH = document.getElementById("content-search");
+  SEARCH.style.display = "none";
+  SEARCH.classList.remove("fadeIn");
   ALL.style.display = "none";
   switch (Number(id)) {
     case 0:

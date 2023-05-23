@@ -264,3 +264,10 @@ li:hover {
   }
 }
 /* *--------------End Effects */
+/* *--------------Media Query */
+@media (min-width: 1800px) and (max-width: 2560px) {
+  #number {
+    top: 5px;
+    right: 7rem;
+  }
+}
